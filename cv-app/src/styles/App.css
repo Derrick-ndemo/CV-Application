@@ -1,0 +1,88 @@
+.container {
+    padding: 30px;
+    background:aliceblue;
+} 
+
+header {
+    text-align: center;
+    color: hsl(85, 50%, 50%);
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header p {
+    font-size: 2rem;
+}
+
+.general-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    column-gap: 20px;
+    padding: 20px;
+    font-size: 19px;
+}
+
+.general-info p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    /* text-transform: uppercase; */
+}
+
+input {
+    height: 40px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+input:hover {
+    background-color: rgba(128, 128, 128, 0.053);
+}
+
+fieldset {
+    padding: 30px;
+    
+}
+
+legend {
+    text-align: center;
+}
+
+legend h1, legend h2 {
+    padding: 20px;
+    color: hsl(60, 36%, 63%);
+}
+
+.education-exp p,
+.practical-exp{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.education-exp input,
+.practical-exp input {
+    width: 100%;
+}
+
+button {
+    height: 40px;
+    margin-top: 20px;
+    width: 100%;
+    background-color: beige;
+    font-weight: bold;
+    font-size: 20px;
+    color: green;
+    border: none;
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgba(245, 245, 220, 0.655);
+    color: rgba(0, 128, 0, 0.688);
+}
